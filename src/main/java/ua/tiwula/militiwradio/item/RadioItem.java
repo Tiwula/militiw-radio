@@ -1,11 +1,8 @@
 package ua.tiwula.militiwradio.item;
 
-import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.Style;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.Entity;
@@ -14,15 +11,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import org.jetbrains.annotations.Nullable;
 import top.theillusivec4.curios.api.type.capability.ICurioItem;
-import ua.tiwula.militiwradio.network.ModNetwork;
-import ua.tiwula.militiwradio.network.RadioManager;
-import ua.tiwula.militiwradio.network.packet.ToggleRadioPacket;
 import ua.tiwula.militiwradio.client.screen.RadioScreen;
+import ua.tiwula.militiwradio.network.ModNetwork;
+import ua.tiwula.militiwradio.network.packet.ToggleRadioPacket;
 import ua.tiwula.militiwradio.sound.ModSounds;
-import ua.tiwula.militiwradio.energy.EnergyCapabilityProvider;
 
 import java.util.List;
 

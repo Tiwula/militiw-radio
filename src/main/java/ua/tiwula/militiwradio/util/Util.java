@@ -37,7 +37,7 @@ public class Util
         {
             ItemStack main = player.getMainHandItem();
 
-            if (main.getItem() instanceof RadioItem radio)
+            if (main.getItem() instanceof RadioItem)
             {
                 return main;
             }

@@ -17,7 +17,7 @@ import java.util.Objects;
 import java.util.UUID;
 import java.util.function.Supplier;
 
-@SuppressWarnings("InstantiationOfUtilityClass")
+//@SuppressWarnings("InstantiationOfUtilityClass")
 public class StopTransmitPacket
 {
     private final short freq;

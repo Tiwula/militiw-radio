@@ -1,11 +1,12 @@
 package ua.tiwula.militiwradio.network;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.players.PlayerList;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class RadioManager
@@ -62,7 +63,7 @@ public class RadioManager
         return TRANSMITTING_MAP.containsKey(player);
     }
 
-    public static boolean isFreqBusy(short freq, ServerPlayer sender, PlayerList list, int maxDist)
+    /*public static boolean isFreqBusy(short freq, ServerPlayer sender, PlayerList list, int maxDist)
     {
         for (Map.Entry<UUID, Short> entry : TRANSMITTING_MAP.entrySet())
         {
@@ -73,5 +74,5 @@ public class RadioManager
                 return true;
         }
         return false;
-    }
+    }*/
 }

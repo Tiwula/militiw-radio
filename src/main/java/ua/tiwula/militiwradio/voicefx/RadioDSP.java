@@ -4,15 +4,12 @@ import de.maxhenkel.voicechat.api.opus.OpusDecoder;
 import de.maxhenkel.voicechat.api.opus.OpusEncoder;
 import ua.tiwula.militiwradio.voicefx.effects.IVoiceEffect;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
 import static ua.tiwula.militiwradio.RadioVoiceChatPlugin.api;
 
 public class RadioDSP {
-
-    private static final Random random = new Random();
 
     // ===== MAIN ENTRY =====
     public static byte[] process(

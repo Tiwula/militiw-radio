@@ -23,7 +23,7 @@ public class RadioScreen extends Screen
     private byte selectedCh = 1;
     private final RadioItem item;
     private final CompoundTag tag;
-    private boolean inCurios;
+    private final boolean inCurios;
     private final short[] chs;
 
 

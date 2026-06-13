@@ -1,9 +1,6 @@
 package ua.tiwula.militiwradio.network.packet;
 
-import net.minecraft.client.Minecraft;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.network.chat.Component;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraftforge.network.NetworkEvent;
 import ua.tiwula.militiwradio.client.RadioOverlay;
 

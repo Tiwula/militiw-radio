@@ -5,9 +5,6 @@ import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.RegisterCommandsEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
-import ua.tiwula.militiwradio.MilitiwRadio;
 import ua.tiwula.militiwradio.item.RadioItem;
 import ua.tiwula.militiwradio.util.Util;
 

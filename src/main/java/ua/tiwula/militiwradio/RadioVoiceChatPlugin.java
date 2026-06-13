@@ -9,15 +9,16 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.players.PlayerList;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.network.PacketDistributor;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import ua.tiwula.militiwradio.item.RadioItem;
 import ua.tiwula.militiwradio.network.ModNetwork;
 import ua.tiwula.militiwradio.network.RadioManager;
 import ua.tiwula.militiwradio.network.packet.VoicePingS2CPacket;
 import ua.tiwula.militiwradio.util.Util;
 import ua.tiwula.militiwradio.voicefx.RadioDSP;
-import ua.tiwula.militiwradio.voicefx.effects.*;
+import ua.tiwula.militiwradio.voicefx.effects.IVoiceEffect;
+import ua.tiwula.militiwradio.voicefx.effects.NoiseFX;
+import ua.tiwula.militiwradio.voicefx.effects.PacketLossFX;
+import ua.tiwula.militiwradio.voicefx.effects.VolumeBoostFX;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +29,7 @@ public class RadioVoiceChatPlugin implements VoicechatPlugin
 {
     public static VoicechatServerApi api;
 
-    private static boolean wasTalking;
+//    private static boolean wasTalking;
 
     @Override
     public String getPluginId()
