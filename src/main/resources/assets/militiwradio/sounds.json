@@ -1,0 +1,18 @@
+{
+  "radio.on":
+  {
+    "sounds": [ "militiwradio:radio_on" ]
+  },
+  "radio.freq":
+  {
+    "sounds": [ "militiwradio:radio_set_freq" ]
+  },
+  "radio.start":
+  {
+    "sounds": [ "militiwradio:radio_start_input" ]
+  },
+  "radio.end":
+  {
+    "sounds": [ "militiwradio:radio_end_input" ]
+  }
+}

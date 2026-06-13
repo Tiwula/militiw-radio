@@ -1,0 +1,9 @@
+{
+  "curios.identifier.radio": "Radio",
+  "item.militiwradio.radio": "Radio",
+  "key.militiwradio.ptt": "PTT",
+  "key.categories.militiwradio": "Militiw Radio",
+  "key.militiwradio.nextch": "Next channel",
+  "key.militiwradio.prevch": "Previous channel",
+  "key.militiwradio.open": "Open radio"
+}

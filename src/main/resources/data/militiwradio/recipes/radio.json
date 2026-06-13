@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#/#",
+    ".G.",
+    "BgB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "/": {
+      "item": "minecraft:lightning_rod"
+    },
+    ".": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "B": {
+      "tag": "minecraft:buttons"
+    },
+    "g": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "militiwradio:radio",
+    "count": 1
+  }
+}

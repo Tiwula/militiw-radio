@@ -1,0 +1,16 @@
+{
+  "overrides": [
+    {
+      "predicate": {
+        "militiwradio:on": 0
+      },
+      "model": "militiwradio:item/radio/off"
+    },
+    {
+      "predicate": {
+        "militiwradio:on": 1
+      },
+      "model": "militiwradio:item/radio/on"
+    }
+  ]
+}

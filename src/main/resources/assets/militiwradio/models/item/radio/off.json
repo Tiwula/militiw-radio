@@ -1,0 +1,7 @@
+{
+  "parent": "militiwradio:item/radio_model",
+  "textures":
+  {
+    "0" : "militiwradio:item/radio_off"
+  }
+}
